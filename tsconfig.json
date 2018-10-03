@@ -16,6 +16,32 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "core": [
+        "dist/core"
+      ],
+      "core/*": [
+        "dist/core/*"
+      ],
+      "features": [
+        "dist/features"
+      ],
+      "features/*": [
+        "dist/features/*"
+      ],
+      "smart": [
+        "dist/smart"
+      ],
+      "smart/*": [
+        "dist/smart/*"
+      ],
+      "dumb": [
+        "dist/dumb"
+      ],
+      "dumb/*": [
+        "dist/dumb/*"
+      ]
+    }
   }
 }
